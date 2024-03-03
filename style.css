@@ -1,0 +1,89 @@
+body {
+  /* background-color: #eff9fa; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+}
+
+.header__title {
+  font-size: 28px;
+}
+.header__subtitle {
+  color: rgb(92, 154, 196);
+}
+
+main{
+  border: 1px solid darkgray;
+  text-align: center;
+  
+}
+
+.skills ol {
+  list-style: none;
+}
+
+.separator {
+  width: 50%;
+  height: 3px;
+  background-color: rgba(130, 187, 204, 0.867);
+}
+
+
+.video {
+  width: 750px;
+  height: 450px;
+  border: none;
+}
+
+.ed__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.ed__table th, 
+.ed__table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.quote {
+  font-size: 32px;
+}
+
+.form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form__control {
+  width: 100%;
+}
+
+.form__submit{
+  display: block;
+  margin: 0 auto;
+}
+
+.control--text {
+  width: 70%;
+}
+
+.footer{
+  height: 100px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.contact__link {
+  text-decoration: none;
+  color:black;
+  cursor: pointer;
+
+}

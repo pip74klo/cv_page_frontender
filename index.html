@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV page</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="avatar" src="./assets/avatar.png" alt="my photo">
+    <h1 class="header__title"> Dmitry Ko | CV</h1>
+    <h2 class="header__subtitle">Frontend Developer</h2>
+  </header>
+
+  <main>
+    <section class="skills">
+      <h3>Skills</h3>
+
+      <details>
+        <summary>Skills list:</summary>
+
+        <ol>
+          <li>1. HTML</li>
+          <li>2. CSS</li>
+          <li>3. JavaScript</li>
+          <li>4. React</li>
+          <li>5. Typescript</li>
+        </ol>
+      </details>
+    </section>
+
+    <article class="article">
+      <h4> Short article about me</h4>
+
+      <p>Далеко-далеко за словесными горами в стране гласных и согласных, живут рыбные тексты. Безорфографичный имеет
+        путь, вершину вопроса страну, взгляд, свой над ему языкового деревни алфавит строчка семь парадигматическая
+        щеке. Скатился необходимыми ему, безорфографичный, но, он пунктуация они предупреждал дал злых реторический одна
+        от всех взгляд силуэт большой лучше запятых! Там вершину своего залетают.</p>
+    </article>
+
+    <section class="gallery">
+      <h3>Gallery</h3>
+      <img src="https://placehold.co/250x250" alt="placehold image">
+      <img src="https://placehold.co/250x250" alt="placehold image">
+      <img src="https://placehold.co/250x250" alt="placehold image">
+    </section>
+    <hr class="separator">
+
+    <section>
+      <iframe class="video" src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e"
+        title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      </section>
+
+      <section class="hobbies">
+
+        <details>
+          <summary>Hobbies</summary>
+
+          <ol>
+            <li>Skiing</li>
+            <li>Video editing</li>
+            <li>Audio books</li>
+          </ol>
+        </details>
+      </section>
+
+      <hr class="separator">
+
+      <section class="ed">
+        <table class="ed__table">
+          <thead>
+            <tr>
+              <th>School /University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <tr>
+              <td>IT school 1</td>
+              <td>Angular Dev</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>IT school 2</td>
+              <td>React Dev</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="quote">
+        <blockquote>
+          Действия - это единственный путь к успеху!
+        </blockquote>
+      </section>
+
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" class="form" target="_blank">
+          <fieldset>
+            <legend>Required fields</legend>
+            
+            
+              <label for="firstNameID">First Name: </label>
+              <input class="form__control" type="text" name="firstName" id="firstNameID" required placeholder="first name">
+
+              <label for="lastNameID">Last Name: </label>
+              <input class="form__control" type="text" name="lastName" id="lastNameID" required placeholder="last name">
+
+              <label for="emailID">Email: </label>
+              <input class="form__control" type="text" name="email" id="emailID" required placeholder="email">
+            
+          </fieldset>
+          <br>
+          <textarea class="form__control control--text"
+          name="questions" 
+          cols="30"
+          rows="7"
+          placeholder="first name"> </textarea>
+
+          <button class="form__submit" type="submit">Submit</button>
+        </form>
+      </section>
+  </main>
+
+  <hr class="separator">
+
+  <footer class="footer">
+    <address>
+      <a href="mailto:It@mal.ru" class="contact__link">It@mal.ru</a>
+      <br><br>
+      <a href="tel:+9989454545454" class="contact__link">+9989454545454</a>
+    </address>
+
+  </footer>
+
+</body>
+
+</html>
